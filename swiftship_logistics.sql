@@ -1,7 +1,7 @@
 -- Section 1
 drop database if exists swiftship_database;
 create database swiftship_database;
-use swiftship_databse;
+use swiftship_database;
 show databases;
 
 -- Table 1 (Partner Table)
@@ -147,7 +147,7 @@ order by count(s.s_id) desc limit 1;
 select * from ZoneFilter;
 
 -- Report 4 (Partner ScoreCard)
-create table Partnercorecard as
+create table Partnerscorecard as
 select 
 p.p_id as "Partner Id",
 p.partner_name as "Partner Name",
