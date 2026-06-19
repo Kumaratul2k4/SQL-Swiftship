@@ -180,7 +180,7 @@ join Shipment s on p.p_id = s.p_id
 join DeliveryLogs dl on dl.s_id = s.s_id
 group by p.p_id;
 
-select * from Partnercorecard
+select * from Partnerscorecard
 where `Rank` = 1;
 
 
